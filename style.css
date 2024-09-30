@@ -1,0 +1,174 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.para{
+    box-sizing: content-box;
+    background-color: white;
+    width: 20rem;
+    height: 5rem;
+    align-items: center;
+    border-radius: 10%;
+    margin: 2px;
+    padding: 2px;
+    border: 2px solid black;
+    position: relative;
+    top:3rem;
+    left:5rem;text-align: center;
+    justify-content: center;
+
+
+}
+.upper01{
+    display: inline-block;
+
+    background-color: rgb(80, 80, 131);
+    height: 50%;
+    align-items: center;
+    min-height: 50vh;
+    min-width: 100%;
+}
+.upper{
+margin: 0;
+padding: 0;
+
+}
+.min-h{
+    min-height: 100vh;
+}
+.bg-colour{
+    background-color:rgb(251, 252, 253);
+    background-size:auto;
+    margin: 0;
+    padding: 0;
+}
+.mx_auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.myform{
+    border: 1px solid black;
+    width: 20em;
+    height:18em;
+    display: flex;
+    flex-direction: column;
+    position:absolute ;
+    top:5%;
+    right: 20%;
+    padding:1em;
+    border-radius: 20px;
+    margin-left: 10em;
+    background-color: rgb(241, 240, 239);
+    
+   
+}
+.myusername{
+    
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: 10px;
+    border: 1px solid black;
+   
+}
+.mypassword{
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.subbutton{
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-top: 1em;
+   
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: 10px;
+    background-color:rgb(99, 99, 240);
+    border: 1px solid black;
+    color: white;
+}
+main form > div{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+main form > div a{
+    margin-top: 1em;
+    
+   
+    
+}
+.createbutton{
+    width: 15em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-top: 1em;
+   
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: 10px;
+    background-color:rgb(41, 236, 41);
+    border: 1px solid black;
+    align-self: center;
+    
+}
+.createbutton a{
+    color: aliceblue;
+    font-style: bold;
+    text-decoration: none;
+}
+.section{
+    display: flex;
+    align-items: center;
+}
+.text{
+    margin-left: 10em;
+    display: block;
+}
+
+
+.myusername:hover{
+    border: 1px solid blue;
+}
+
+.mypassword:hover{
+    border: 1px solid blue;
+}
+.subbutton:hover{
+    background-color: white;
+    border: 1px solid blue;
+    color: blue;
+}
+
+.createbutton:hover{
+   background-color: grey;
+    
+}
+
+.content{
+    display: flex;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+.content2{
+    margin-top: 1em;
+    margin-left: 1em;
+}
